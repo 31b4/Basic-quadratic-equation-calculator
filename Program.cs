@@ -49,7 +49,7 @@ _________________
             int x1;
             int x2;
             if (under_root < 0) {
-                Console.WriteLine("\nNincs megoldás");
+                Console.WriteLine("\nNo solution.");
             }
             else {   
                 x1 = (bx +((int)Math.Sqrt(under_root)))/ denominator;
